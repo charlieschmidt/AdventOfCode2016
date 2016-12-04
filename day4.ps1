@@ -50,13 +50,9 @@ foreach ($RoomLine in $Rooms)
 
         if ($ActualRoomName -ilike "*object*")
         {
-            Write-Host "$ActualRoomName $SectorID"
+            Write-Host "Solution 2: $ActualRoomName ($SectorID)"
         }
 
-    }
-    else 
-    {
-        write-host "No match for $RoomLine"
     }
 }
 
