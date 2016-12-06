@@ -1,6 +1,6 @@
 
 
-$Content = Get-Content .\day4.input -raw
+$Content = Get-Content (Join-Path $PSScriptRoot day4.input)  -raw
 
 $Rooms = $Content -split "`n"
 $ValidRoomSectorIDSum = 0

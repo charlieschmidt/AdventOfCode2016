@@ -1,7 +1,7 @@
 process
 {
 
-    $Content = Get-Content .\day3.input -raw
+    $Content = Get-Content (Join-Path $PSScriptRoot day3.input)  -raw
 
     $TrianglePossibilities = $Content -split "`n"
     $ValidTriangles = 0

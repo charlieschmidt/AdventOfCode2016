@@ -1,7 +1,7 @@
 process
 {
 
-    $Content = Get-Content .\day1.input -raw
+    $Content = Get-Content (Join-Path $PSScriptRoot day1.input)  -raw
     $Moves = $Content -split ","
     [int]$x = 0
     [int]$y = 0

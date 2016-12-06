@@ -43,7 +43,7 @@ function day2
     }
 }
 
-$Content = Get-Content .\day2.input -raw
+$Content = Get-Content (Join-Path $PSScriptRoot day2.input)  -raw
 
 
 
