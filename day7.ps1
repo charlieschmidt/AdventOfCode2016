@@ -59,7 +59,7 @@ foreach ($Message in $Messages)
             continue
         }
 
-        if ($ABA[0] -eq $ABA[2])
+        if ($ABA[0] -eq $ABA[2] -and $ABA[0] -ne $ABA[1])
         {
             if ($Outside)
             {
